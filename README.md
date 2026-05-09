@@ -1,6 +1,6 @@
 # STM32 Ultrasonic Scanner
 
-Embedded system built on STM32 that drives a servo-mounted HC-SR04 ultrasonic sensor to produce a 180-degree distance map, transmitted in real time over UART to a radar-style desktop interface.
+Embedded system built on STM32F412 that drives a servo-mounted HC-SR04 ultrasonic sensor to produce a 180-degree distance map, transmitted in real time over UART to a radar-style desktop interface.
 
 ---
 
@@ -12,10 +12,10 @@ The system sweeps a servo motor from a configurable left angle to a right angle 
 
 ## Hardware
 
-- STM32F4 microcontroller
+- STM32F412 microcontroller
 - HC-SR04 ultrasonic sensor
 - SG90 servo motor (PWM control)
-- UART serial link at 115200 baud
+- CH340 UART serial link at 115200 baud
 
 ---
 
