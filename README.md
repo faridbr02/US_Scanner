@@ -21,13 +21,14 @@ The system sweeps a servo motor from a configurable left angle to a right angle 
 
 ## Gallery
 
+Radar display — full 180-degree sweep with obstacle in range and Configuration Panel in the left side:
+
+![Home Screen](assets/home.png)
+
 Hardware setup — STM32 board connected to the HC-SR04 sensor on a breadboard, aimed at a target object:
 
 ![Hardware setup](assets/hardware.jpeg)
 
-Radar display — full 180-degree sweep with obstacle in range and Configuration Panel in the left side:
-
-![Home Screen](assets/home.png)
 
 Radar display — UART visualisation Panel :
 
