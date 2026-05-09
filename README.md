@@ -25,17 +25,14 @@ Hardware setup — STM32 board connected to the HC-SR04 sensor on a breadboard, 
 
 ![Hardware setup](assets/hardware.jpg)
 
-Radar display — full 180-degree sweep with no obstacle in range:
+Radar display — full 180-degree sweep with obstacle in range and Configuration Panel in the left side:
 
-![Radar sweep](assets/radar_sweep.png)
+![Home Screen](assets/home.png)
 
-Radar display — object detected, points clustered at the measured distance:
+Radar display — UART visualisation Panel :
 
-![Object detected](assets/radar_object.png)
+![UART Visualization](assets/settings.png)
 
-Settings panel — runtime configuration sent over UART:
-
-![Settings panel](assets/settings.png)
 
 ---
 
